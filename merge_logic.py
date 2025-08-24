@@ -50,7 +50,7 @@ def detect_color(roi):
 
 
 # --- Prepare video ---
-cap = cv2.VideoCapture("helmet_video.mp4")
+cap = cv2.VideoCapture("tr.mp4")
 tracker = Tracker()
 
 # Output folders
@@ -177,6 +177,7 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 
