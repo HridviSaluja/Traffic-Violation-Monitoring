@@ -1,35 +1,23 @@
-Helmet and Traffic Violation Detection System
+# Helmet and Traffic Violation Detection System
 Overview
 Motorcycle accidents have been rapidly growing throughout the years in many countries. Helmets are the primary safety equipment for motorcyclists, yet many riders neglect to wear them. This project proposes an automated system that monitors traffic in real-time, detects riders without helmets, identifies traffic signal violations, and provides comprehensive analytics for traffic safety enforcement.
-
 Our system utilizes advanced computer vision and deep learning techniques to detect vehicles, identify riders without helmets, monitor traffic light compliance, and track violations across video streams. The application provides a user-friendly interface for traffic management authorities to analyze video footage and generate detailed violation reports.
 
 Key Features
 Real-time Helmet Detection: Identifies riders without helmets using a custom-trained YOLO model
-
 Traffic Light Violation Detection: Monhicles running red lights using color detection and object tracking
-
 Multi-Object Tracking: Tracks vehicles across frames to accurately identify violations
-
 Comprehensive Analytics: Provides detailed statistics and visualizations of detected violations
-
 User-Friendly Interface: Streamlit-based web application for easy interaction and video processing
-
 Export Functionality: Download processed videos with violation annotations and detailed reports
 
 Technical Implementation
 This project implements a sophisticated pipeline that combines multiple computer vision techniques:
-
 Object Detection: Uses YOLOv8 for detecting vehicles, persons, and traffic lights
-
 Custom Helmet Detection: Employs a specially trained YOLO model for helmet detection
-
 Color Recognition: Implements HSV color space analysis for traffic light status detection
-
 Object Tracking: Utilizes a dedicated tracker to follow vehicles across frames
-
 Violation Logic: Applies spatial and temporal reasoning to identify violations
-
 Web Interface: Built with Streamlit for accessible interaction and visualization
 
 Installation
